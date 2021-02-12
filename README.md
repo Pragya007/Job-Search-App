@@ -47,6 +47,11 @@ Open another cmd:
 - `ng serve`
 - Open: `localhost:4200`
 
+### Credentials for Direct Login
+- Recruiter: `Username- pragya Password- pragya`
+- Employee: `Username- abc Password- abc`
+
+
 ### Work-Flow
 ![](https://github.com/Pragya007/Job-Search-Portal/blob/main/screenshots/Flowchart.png)
 #### API
