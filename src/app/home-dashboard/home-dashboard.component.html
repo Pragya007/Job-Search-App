@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+</head>
+<body>
+    <app-navbar></app-navbar>
+  <header>
+      
+    <div class="container">
+      <h2>Find your perfect job here!</h2>
+      <div style="width: 300px;">
+      <form id="search-form">
+          <input type="text" class="form-control" placeholder="Job Title" id="search" >
+          <input type="text" class="form-control" placeholder="Location" id="location">
+          <button class="btn btn-block btn-primary" onclick="homedashFunc()" >Search</button>
+        </form>
+    </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+          <div class="loading-element">
+            <img src="/assets/45.svg" alt=""/>
+          </div>
+          <div class="result-container"></div>        
+    </div>
+  </main>
+  <script type="module" src="/assets/app.js">
+  </script>
+</body>
+</html>

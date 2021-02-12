@@ -1,0 +1,27 @@
+header {
+    padding: 50px;
+    background-image: url(/assets/business.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    max-width: 1800px;
+}
+header h2 {
+    font-size: 1.5rem;
+    color: lightseagreen;
+}
+header form {
+    margin-top: 50px;
+    max-width: 400px;
+}
+.card {
+    margin: 25px 0;
+}
+.loading-element {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: none;
+}
+.loading-element .loading {
+    display: block;
+}
