@@ -48,8 +48,8 @@ Open another cmd:
 - Open: `localhost:4200`
 
 ### Credentials for Direct Login
-- Recruiter: `Username- pragya Password- pragya`
-- Employee: `Username- abc Password- abc`
+- Employee: `Username- pragya Password- pragya`
+- Recruiter: `Username- abc Password- abc`
 
 
 ### Work-Flow
