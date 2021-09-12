@@ -28,7 +28,7 @@ jobs:
       run: |
         npm install
       
-    - name: ng serve
+    - name: npm start
       run: |
         ng serve
     - name: cd api
