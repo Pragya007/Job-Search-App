@@ -23,22 +23,18 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    
     - name: cd api
       run: |
         cd api
     - name: npm install
       run: |
         npm install
-    - name: npm start
+    - name: npm build
       run: |
-        npm start
-    - name: npm install
-      run: |
-        npm install
-      
-    - name: npm start
-      run: |
-        npm start
+        npm build
+    
+  
     
         
         
